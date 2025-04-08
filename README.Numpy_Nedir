@@ -1,0 +1,33 @@
+
+NumPy, Python programlama dilinde kullanılan ve sayısal hesaplamalar yapmayı kolaylaştıran bir kütüphanedir.
+Genellikle bilimsel hesaplamalar, veri analizi, istatistiksel işlemler ve makine öğrenimi gibi alanlarda kullanılır.
+
+NumPy'nin Temel Özellikleri:
+Çok Boyutlu Diziler: NumPy'nin en önemli özelliği, verileri çok boyutlu diziler şeklinde depolayabilmesidir.
+Örneğin, bir matris (yani 2 boyutlu dizi) veya vektör (1 boyutlu dizi) oluşturulabilir.
+Bu diziler Python'un listelerine göre çok daha hızlı ve verimlidir.
+
+Matematiksel İşlemler: NumPy, sayılarla yapılan işlemleri çok hızlı bir şekilde gerçekleştirir. 
+Örneğin, diziler üzerinde toplama, çıkarma, çarpma ve bölme gibi işlemler kolayca yapılabilir. 
+Bu işlemler, tüm dizi elemanlarına aynı anda uygulanabilir.
+
+İleri Düzey İşlemler: 
+NumPy, diziler üzerinde gelişmiş işlemler yapmayı mümkün kılar. 
+Örneğin, rastgele sayılar üretme, dizilerin şekillerini değiştirme 
+veya bir dizi elemanlarını dilimleme gibi işlemler kolayca yapılabilir.
+
+İstatistiksel Hesaplamalar: NumPy, veriler üzerinde istatistiksel analiz yapmayı sağlar. 
+Ortalama, standart sapma, medyan gibi hesaplamalar çok hızlı bir şekilde yapılabilir.
+
+Veri Bilimi ve Makine Öğrenimi: NumPy, veri bilimi ve makine öğrenimi alanlarında sıklıkla kullanılır 
+çünkü büyük veri setleri ile çalışırken yüksek performans sağlar. 
+Ayrıca, diğer popüler Python kütüphaneleri ile de uyumlu çalışır.
+
+NumPy Ne İşe Yarar?
+Bilimsel Araştırmalar: Fizik, kimya veya biyoloji gibi alanlarda yapılan hesaplamalar ve modellemeler için kullanılır.
+
+Veri Analizi: Büyük veri setlerini analiz etmek ve işlemek için idealdir.
+
+Makine Öğrenimi: Veri ön işleme ve model eğitimi gibi süreçlerde kullanılır.
+
+Matematiksel ve İstatistiksel Hesaplamalar: Veri üzerinde yapılan her türlü hesaplama ve analizde kullanılır.
