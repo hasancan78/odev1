@@ -7,14 +7,16 @@ Original file is located at
     https://colab.research.google.com/drive/1qMqr8Zfto45nzudDxHZQK1pa7QrySpQa
 """
 
-# 1. NumPy Getting Started
+# Soru 1
+# NumPy Getting Started
 import numpy as np  # NumPy kütüphanesini dahil ediyoruz.
 
 arr = np.arange(1, 10)  # 1'den 9'a kadar olan sayılardan oluşan bir dizi oluşturuyor.
 
 print(arr)  # Diziyi ekrana yazdırıyoruz.
 
-# 2. NumPy Creating Arrays
+# Soru 2
+# NumPy Creating Arrays
 import numpy as np  # NumPy kutuphanesini dahil ediyoruz.
 
 sifirlar_dizisi = np.zeros(5)  # 5 elemandan olusan sifirlarla bir dizi olusturuyoruz.
@@ -26,25 +28,26 @@ print("\nBirler matrisi:\n", birler_matrisi)
 aralik_dizisi = np.arange(10, 21)  # 10'dan 20'ye kadar artan bir dizi olusturuyoruz.
 print("\n10 ile 20 arasinda artan dizi:", aralik_dizisi)
 
-# 3. NumPy Array Indexing
+# Soru 3
+# NumPy Array Indexing
 import numpy as np  # NumPy kütüphanesini dahil ediyoruz.
 
-arr = np.array([[5, 10, 15], [20, 25, 30], [35, 40, 45]])
-# 3x3 boyutunda bir dizi oluşturuyoruz.
+arr = np.array([[5, 10, 15], [20, 25, 30], [35, 40, 45]]) # 3x3 boyutunda bir dizi oluşturuyoruz.
 
 print(arr[1][2])  # 1. satır, 2. sütundaki değeri (30) yazdırıyoruz.
 
-# 4. NumPy Array Slicing
+# Soru 4
+# NumPy Array Slicing
 import numpy as np  # NumPy kütüphanesini dahil ediyoruz.
 
-arr = np.array([[5, 10, 15], [20, 25, 30], [35, 40, 45]])
-# 3x3 boyutunda bir dizi oluşturuyoruz.
+arr = np.array([[5, 10, 15], [20, 25, 30], [35, 40, 45]]) # 3x3 boyutunda bir dizi oluşturuyoruz.
 
 alt_dizi = arr[:, :2]  # Tüm satırlardan, ilk iki sütunu seçiyoruz.
 
 print(alt_dizi)  # Seçilen alt diziyi yazdırıyoruz.
 
-# 5. NumPy Data Types
+# Soru 5
+# NumPy Data Types
 import numpy as np  # NumPy kütüphanesini dahil ediyoruz.
 
 arr = np.array([1, 2, 3])  # Sayılardan oluşan bir dizi oluşturuyoruz.
@@ -55,7 +58,8 @@ arr_float = arr.astype(float)  # Diziyi float tipine dönüştürüyoruz.
 print("Dönüştürülmüş dizi:", arr_float)  # Dönüştürülmüş diziyi yazdırıyoruz.
 print("Dönüştürülmüş dizinin veri tipi (dtype):", arr_float.dtype)  # Dönüştürülmüş dizinin veri tipini yazdırıyoruz.
 
-# 6. NumPy Copy vs View
+# Soru 6
+# NumPy Copy vs View
 import numpy as np  # NumPy kütüphanesini dahil ediyoruz.
 
 dizi = np.array([1, 2, 3, 4, 5])  # Bir dizi oluşturuyoruz.
@@ -73,7 +77,8 @@ gorunum_dizi[0] = 77
 print("Görünüm dizi (gorunum_dizi):", gorunum_dizi)
 print("Orijinal dizi (dizi) görünüm sonrası:", dizi)
 
-# 7. NumPy Array Shape
+# Soru 7
+# NumPy Array Shape
 import numpy as np  # NumPy kütüphanesini dahil ediyoruz.
 
 dizi = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]])
@@ -81,7 +86,8 @@ dizi = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]])
 
 print("Dizinin boyutlari (shape):", dizi.shape)  # Dizinin boyutlarını yazdırıyoruz.
 
-# 8. NumPy Array Reshape
+# Soru 8
+# NumPy Array Reshape
 import numpy as np  # NumPy kütüphanesini dahil ediyoruz.
 
 dizi = np.arange(1, 13)  # 1'den 12'ye kadar olan sayılardan oluşan bir dizi oluşturuyoruz.
@@ -90,7 +96,8 @@ yeni_dizi = dizi.reshape(3, 4)  # Dizi'yi 3x4 boyutunda bir matrise yeniden şek
 
 print("Yeni şekillendirilmiş dizi:\n", yeni_dizi)  # Yeni şekillendirilmiş diziyi yazdırıyoruz.
 
-# 9. NumPy Array Iterating
+# Soru 9
+# NumPy Array Iterating
 import numpy as np  # NumPy kütüphanesini dahil ediyoruz.
 
 dizi = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])  # 2 boyutlu bir dizi oluşturuyoruz.
@@ -98,7 +105,8 @@ dizi = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])  # 2 boyutlu bir dizi oluştu
 for satir in dizi:  # Her bir satır üzerinde döngü kuruyoruz.
     print(satir)  # Satırdaki elemanları yazdırıyoruz.
 
-# 10. NumPy Array Join
+# Soru 10
+# NumPy Array Join
 import numpy as np  # NumPy kütüphanesini dahil ediyoruz.
 
 # İki adet 2x2 boyutunda NumPy dizisi oluşturuyoruz.
@@ -113,7 +121,8 @@ print("Dikey birleştirilmiş dizi (axis=0):\n", dikey_birlesim)
 yatay_birlesim = np.concatenate((dizi_a, dizi_b), axis=1)
 print("\nYatay birleştirilmiş dizi (axis=1):\n", yatay_birlesim)
 
-# 11. NumPy Array Split
+# Soru 11
+# NumPy Array Split
 import numpy as np  # NumPy kütüphanesini dahil ediyoruz.
 
 # 1'den 12'ye kadar olan bir dizi oluşturuyoruz.
@@ -127,7 +136,8 @@ print("Dizi'nin 3 parçaya bölünmüş hali:")
 for i, parca in enumerate(parcalar, start=1):
     print(f"Parça {i}: {parca}")
 
-# 12. NumPy Array Search
+# Soru 12
+# NumPy Array Search
 import numpy as np  # NumPy kütüphanesini dahil ediyoruz.
 
 # Bir dizi oluşturuyoruz.
@@ -139,7 +149,8 @@ indeks = np.where(dizi == 25)
 # 25'in bulunduğu indeksin konumunu yazdırıyoruz.
 print("25 değeri dizinin indeksinde:", indeks[0][0])
 
-# 13. NumPy Array Sort
+# Soru 13
+# NumPy Array Sort
 import numpy as np  # NumPy kütüphanesini dahil ediyoruz.
 
 # Bir dizi oluşturuyoruz.
@@ -151,7 +162,8 @@ sirali_dizi = np.sort(dizi)
 # Sıralanmış diziyi yazdırıyoruz.
 print("Sıralanmış dizi:", sirali_dizi)
 
-# 14. NumPy Array Filter
+# Soru 14
+# NumPy Array Filter
 import numpy as np  # NumPy kütüphanesini dahil ediyoruz.
 
 # Bir dizi oluşturuyoruz.
