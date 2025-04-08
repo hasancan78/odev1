@@ -18,7 +18,7 @@ print(arr)  # Diziyi ekrana yazdırıyoruz.
 import numpy as np  # NumPy kutuphanesini dahil ediyoruz.
 
 sifirlar_dizisi = np.zeros(5)  # 5 elemandan olusan sifirlarla bir dizi olusturuyoruz.
-print("Sifirlarla olusan dizi:", sifirlar_dizisi)
+print("Sıfırlarla oluşan dizi:", sifirlar_dizisi)
 
 birler_matrisi = np.ones((3, 3))  # 3x3 boyutunda birler matrisi olusturuyoruz.
 print("\nBirler matrisi:\n", birler_matrisi)
